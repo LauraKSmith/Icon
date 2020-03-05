@@ -1,0 +1,39 @@
+.custom-bg{
+    background: #90afc5;
+}
+
+.text-col, #menu-item:hover{
+    color: #90afc5 !important;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active{
+    background: #90afc5 !important;
+}
+
+.custom-container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-items > div{
+    width: 15%;
+    margin: 0 auto;
+}
+
+.flex-items img{
+    max-width: 90px;
+    width: 100%;
+    height: 90px;
+    object-fit: contain;
+}
+
+.cust-mg{
+    margin-top: 60px;
+}
+

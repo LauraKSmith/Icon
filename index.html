@@ -13,30 +13,34 @@
   <!-- Custom fonts for this theme -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css">
 
   <!-- Theme CSS -->
-  <link href="css/freelancer.min.css" rel="stylesheet">
+  <link href="./css/freelancer.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/custom.css">
 
 </head>
 
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg bg-dark text-uppercase fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Icon.ic</a>
-      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+        type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="menu-item" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="menu-item" href="#about">About</a>
           </li>
           </li>
         </ul>
@@ -45,7 +49,7 @@
   </nav>
 
   <!-- Masthead -->
-  <header class="masthead bg-primary text-white text-center">
+  <header class="masthead custom-bg text-white text-center">
     <div class="container d-flex align-items-center flex-column">
 
 
@@ -55,11 +59,7 @@
 
       <!-- Icon Divider -->
       <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
+        <img src="./img/portfolio/divider.png" alt="" srcset="">
       </div>
 
       <!-- Masthead Subheading -->
@@ -71,10 +71,39 @@
 
   <!-- Portfolio Section -->
   <section class="page-section portfolio" id="portfolio">
-    <div class="container">
+    <div class="custom-container">
 
       <!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Alert Icons</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-dark mb-0">Alert Icons</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+          <img src="./img/portfolio/divider.png" alt="" srcset="">
+        </div>
+
+      <div class="flex-items">
+        <div>
+          <img src="img/portfolio/request.png" alt="">
+        </div>
+        <div>
+          <img src="img/portfolio/donation.png" alt="">
+        </div>
+        <div>
+          <img src="img/portfolio/damage.png" alt="">
+        </div>
+        <div>
+          <img src="img/portfolio/request.png" alt="">
+        </div>
+        <div>
+          <img src="img/portfolio/donation.png" alt="">
+        </div>
+        <div>
+          <img src="img/portfolio/damage.png" alt="">
+        </div>
+      </div>
+
+      <!-- Portfolio Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-dark cust-mg">Classic Icons</h2>
 
       <!-- Icon Divider -->
       <div class="divider-custom">
@@ -85,703 +114,616 @@
         <div class="divider-custom-line"></div>
       </div>
 
-      <!-- Portfolio Grid Items -->
-      <div class="row">
-
-        <!-- Portfolio Item 1 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-            </div>
-            <img class="img-fluid" src="img/portfolio/request.png" alt="">
-          </div>
+      <div class="flex-items">
+        <div>
+          <img class="img-fluid" src="img/portfolio/spop.png" alt="">
         </div>
-
-        <!-- Portfolio Item 2 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-            </div>
-            <img class="img-fluid" src="img/portfolio/donation.png" alt="">
-          </div>
+        <div>
+          <img class="img-fluid" src="img/portfolio/mpop.png" alt="">
         </div>
-
-        <!-- Portfolio Item 3 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-            </div>
-            <img class="img-fluid" src="img/portfolio/damage.png" alt="">
-          </div>
+        <div>
+          <img class="img-fluid" src="img/portfolio/lpop.png" alt="">
         </div>
-        
-        
-       <!-- Portfolio Section Heading -->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Classic Icons</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
+        <div>
+          <img class="img-fluid" src="img/portfolio/xlpop.png" alt="">
         </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-          
-          
-<!-- Portfolio Item 53 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal53">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/spop.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-        <!-- Portfolio Item 18 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal18">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            <img class="img-fluid" src="img/portfolio/mpop.png" alt="">
-          </div>
+        <div>
+          <img class="img-fluid" src="img/portfolio/location.png" alt="">
         </div>
-
+        <div>
+          <img class="img-fluid" src="img/portfolio/location.png" alt="">
         </div>
-        <!-- /.row -->
-
-<!-- Portfolio Item 19 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal19">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/lpop.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 20 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal20">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/xlpop.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 22 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal23">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/location.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-              <!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Outdoors Icons</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-<!-- Portfolio Item 24 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal24">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/whale.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 25 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal25">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/kayak.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 26 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal26">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/bird.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 27 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal27">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/tent.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 28 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal28">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/iceburg.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 33 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal33">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/axe.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 34 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal34">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/ski.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-        <!-- Portfolio Item 13 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal13">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            <img class="img-fluid" src="img/portfolio/simpleseal.png" alt="">
-          </div>
-        </div>
-
-        </div>
-        <!-- /.row -->
-
-<!-- Portfolio Item 29 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal29">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/strawberry.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 30 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal30">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/buffalo.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 31 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal31">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/flycatcher.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 32-->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal32">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/acorn.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-
-<!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Botany</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-
-<!-- Portfolio Item 35 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal35">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/rose.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 36 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal36">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/tickseed.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 37 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal37">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/dogwood.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 38 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal38">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/pricklypoppy.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 39 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal39">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/coneflower.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 40 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal40">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/bluebonnet.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 41 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal41">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/wildonion.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 42 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal42">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/yellowladyslipper.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 43 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal43">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/prairieanemone.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 44 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal44">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/canola.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 45 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal45">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/purplemallo.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 46 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal46">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/indianblanket.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 47 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal47">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/indianpaintbrush.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 48 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal48">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/thistle.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 49 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal49">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/sleepycatchfly.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 50 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal50">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/blackeyedsusan.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-<!-- Portfolio Item 51 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal51">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
-      </div>
-    <img class="img-fluid" src="img/portfolio/sunflower.png" alt="">
-  </div>
-</div>
-
-</div>
-<!-- /.row -->
-
-
-<!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Misc</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
       </div>
 
     </div>
 
- <!-- Portfolio Item 4 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            <img class="img-fluid" src="img/portfolio/club.png" alt="">
-          </div>
-        </div>
 
-        <!-- Portfolio Item 5 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            <img class="img-fluid" src="img/portfolio/heart.png" alt="">
-          </div>
-        </div>
 
-        <!-- Portfolio Item 6 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            <img class="img-fluid" src="img/portfolio/diamond.png" alt="">
-          </div>
-        </div>
+    <!-- Portfolio Section Heading -->
+    <h2 class="page-section-heading text-center text-uppercase text-dark cust-mg">Outdoors Icons</h2>
 
+    <!-- Icon Divider -->
+    <div class="divider-custom">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon">
+        <i class="fas fa-star"></i>
       </div>
-      <!-- /.row -->
+      <div class="divider-custom-line"></div>
+    </div>
 
-      <!-- Portfolio Item 7 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
-            <div class="portfolio-item-caption-content text-center text-white">
-              <i class="fas fa-plus fa-3x"></i>
-            </div>
-          <img class="img-fluid" src="img/portfolio/spade.png" alt="">
+    <!-- Portfolio Item 24 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal24">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
         </div>
+        <img class="img-fluid" src="img/portfolio/whale.png" alt="">
       </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 25 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal25">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/kayak.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 26 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal26">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/bird.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 27 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal27">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/tent.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 28 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal28">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/iceburg.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 33 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal33">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/axe.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 34 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal34">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/ski.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 13 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal13">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/simpleseal.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 29 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal29">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/strawberry.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 30 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal30">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/buffalo.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 31 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal31">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/flycatcher.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 32-->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal32">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/acorn.png" alt="">
+      </div>
+    </div>
 
     </div>
     <!-- /.row -->
 
 
-<!-- Portfolio Item 14 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal14">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
+    <!-- Portfolio Section Heading -->
+    <h2 class="page-section-heading text-center text-uppercase text-dark mb-0">Botany</h2>
+
+    <!-- Icon Divider -->
+    <div class="divider-custom">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon">
+        <i class="fas fa-star"></i>
       </div>
-    <img class="img-fluid" src="img/portfolio/gumdrops.png" alt="">
-  </div>
-</div>
+      <div class="divider-custom-line"></div>
+    </div>
 
-</div>
-<!-- /.row -->
 
-<!-- Portfolio Item 15 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal15">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
+    <!-- Portfolio Item 35 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal35">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/rose.png" alt="">
       </div>
-    <img class="img-fluid" src="img/portfolio/candy.png" alt="">
-  </div>
-</div>
+    </div>
 
-</div>
-<!-- /.row -->
+    </div>
+    <!-- /.row -->
 
-<!-- Portfolio Item 16 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal16">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
+    <!-- Portfolio Item 36 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal36">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/tickseed.png" alt="">
       </div>
-    <img class="img-fluid" src="img/portfolio/gumdrop.png" alt="">
-  </div>
-</div>
+    </div>
 
-</div>
-<!-- /.row -->
+    </div>
+    <!-- /.row -->
 
-<!-- Portfolio Item 21 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal21">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
+    <!-- Portfolio Item 37 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal37">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/dogwood.png" alt="">
       </div>
-    <img class="img-fluid" src="img/portfolio/okshield.png" alt="">
-  </div>
-</div>
+    </div>
 
-</div>
-<!-- /.row -->
+    </div>
+    <!-- /.row -->
 
- <!-- Portfolio Item 8 -->
+    <!-- Portfolio Item 38 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal38">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/pricklypoppy.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 39 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal39">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/coneflower.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 40 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal40">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/bluebonnet.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 41 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal41">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/wildonion.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 42 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal42">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/yellowladyslipper.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 43 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal43">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/prairieanemone.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 44 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal44">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/canola.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 45 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal45">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/purplemallo.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 46 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal46">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/indianblanket.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 47 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal47">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/indianpaintbrush.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 48 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal48">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/thistle.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 49 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal49">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/sleepycatchfly.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 50 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal50">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/blackeyedsusan.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 51 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal51">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/sunflower.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+
+    <!-- Portfolio Section Heading -->
+    <h2 class="page-section-heading text-center text-uppercase text-dark mb-0">Misc</h2>
+
+    <!-- Icon Divider -->
+    <div class="divider-custom">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon">
+        <i class="fas fa-star"></i>
+      </div>
+      <div class="divider-custom-line"></div>
+    </div>
+
+    </div>
+
+    <!-- Portfolio Item 4 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/club.png" alt="">
+      </div>
+    </div>
+
+    <!-- Portfolio Item 5 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/heart.png" alt="">
+      </div>
+    </div>
+
+    <!-- Portfolio Item 6 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/diamond.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 7 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/spade.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+
+    <!-- Portfolio Item 14 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal14">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/gumdrops.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 15 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal15">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/candy.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 16 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal16">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/gumdrop.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 21 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal21">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/okshield.png" alt="">
+      </div>
+    </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item 8 -->
     <div class="col-md-6 col-lg-4">
       <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
-          <div class="portfolio-item-caption-content text-center text-white">
-            <i class="fas fa-plus fa-3x"></i>
-          </div>
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
         <img class="img-fluid" src="img/portfolio/seal1.png" alt="">
       </div>
     </div>
 
-  </div>
-  <!-- /.row -->
+    </div>
+    <!-- /.row -->
 
-  <!-- Portfolio Item 9 -->
-  <div class="col-md-6 col-lg-4">
-    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9">
+    <!-- Portfolio Item 9 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9">
         <div class="portfolio-item-caption-content text-center text-white">
           <i class="fas fa-plus fa-3x"></i>
         </div>
-      <img class="img-fluid" src="img/portfolio/seal2.png" alt="">
+        <img class="img-fluid" src="img/portfolio/seal2.png" alt="">
+      </div>
     </div>
-  </div>
 
-</div>
-<!-- /.row -->
+    </div>
+    <!-- /.row -->
 
-<!-- Portfolio Item 10 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal10">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
+    <!-- Portfolio Item 10 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal10">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/seal3.png" alt="">
       </div>
-    <img class="img-fluid" src="img/portfolio/seal3.png" alt="">
-  </div>
-</div>
+    </div>
 
-</div>
-<!-- /.row -->
+    </div>
+    <!-- /.row -->
 
-<!-- Portfolio Item 11 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal11">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
+    <!-- Portfolio Item 11 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal11">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/seal4.png" alt="">
       </div>
-    <img class="img-fluid" src="img/portfolio/seal4.png" alt="">
-  </div>
-</div>
+    </div>
 
-</div>
-<!-- /.row -->
+    </div>
+    <!-- /.row -->
 
-<!-- Portfolio Item 12 -->
-<div class="col-md-6 col-lg-4">
-  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal12">
-      <div class="portfolio-item-caption-content text-center text-white">
-        <i class="fas fa-plus fa-3x"></i>
+    <!-- Portfolio Item 12 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal12">
+        <div class="portfolio-item-caption-content text-center text-white">
+          <i class="fas fa-plus fa-3x"></i>
+        </div>
+        <img class="img-fluid" src="img/portfolio/seal5.png" alt="">
       </div>
-    <img class="img-fluid" src="img/portfolio/seal5.png" alt="">
-  </div>
-</div>
+    </div>
 
-</div>
-<!-- /.row -->
+    </div>
+    <!-- /.row -->
   </section>
 
   <!-- About Section -->
-  <section class="page-section bg-primary text-white mb-0" id="about">
+  <section class="page-section custom-bg text-white mb-0" id="about">
     <div class="container">
 
       <!-- About Section Heading -->
@@ -799,10 +741,13 @@
       <!-- About Section Content -->
       <div class="row">
         <div class="col-lg-4 ml-auto">
-          <p class="lead">Hi! I'm Laura and I am a cartographer. While creating maps I have often found myself creating custom icons to give my projects a cohesive look. Visit my <a href="https://vagabondmap.com/">portfolio</a> if you want to see the ways some of these icons have been utilized! </p>
+          <p class="lead">Hi! I'm Laura and I am a cartographer. While creating maps I have often found myself creating
+            custom icons to give my projects a cohesive look. Visit my <a href="https://vagabondmap.com/" class="text-dark">portfolio</a>
+            if you want to see the ways some of these icons have been utilized! </p>
         </div>
         <div class="col-lg-4 mr-auto">
-          <p class="lead">Many of my icons are centered around topics I work on often. This is why you'll see a large selection of botanic and emergency managment icons in my portfolio.
+          <p class="lead">Many of my icons are centered around topics I work on often. This is why you'll see a large
+            selection of botanic and emergency managment icons in my portfolio.
         </div>
       </div>
 
@@ -810,9 +755,10 @@
   </section>
 
   <!-- Copyright Section -->
-  <section class="copyright py-4 text-center text-white">
+  <section class="copyright py-4 bg-dark text-center text-white">
     <div class="container">
-      <small>Contact me by visiting me <a href="https://vagabondmap.com/">here</a> or <a href="https://www.linkedin.com/in/laurasmith405/">here</a></small>
+      <small>Contact me by visiting me <a href="https://vagabondmap.com/" class="text-col">here</a> or <a
+          href="https://www.linkedin.com/in/laurasmith405/" class="text-col">here</a></small>
     </div>
   </section>
 
